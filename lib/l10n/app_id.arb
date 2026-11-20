@@ -1,0 +1,766 @@
+{
+  "@@locale": "id",
+  "appName": "Compro Builder",
+  "retry": "Coba lagi",
+  "loading": "Memuat…",
+  "emptyDefault": "Belum ada data",
+  "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
+  "loginTitle": "Masuk",
+  "loginSubtitle": "Kelola company profile Anda dari HP.",
+  "registerTitle": "Buat akun",
+  "registerSubtitle": "Daftar untuk mulai membuat situs Anda.",
+  "fieldName": "Nama lengkap",
+  "fieldEmail": "Email",
+  "fieldPassword": "Kata sandi",
+  "fieldPasswordConfirm": "Konfirmasi kata sandi",
+  "actionLogin": "Masuk",
+  "actionRegister": "Daftar",
+  "actionLogout": "Keluar",
+  "noAccount": "Belum punya akun? Daftar",
+  "haveAccount": "Sudah punya akun? Masuk",
+  "showPassword": "Tampilkan kata sandi",
+  "hidePassword": "Sembunyikan kata sandi",
+  "validationRequired": "Wajib diisi",
+  "validationEmail": "Format email tidak valid",
+  "validationPasswordMin": "Kata sandi minimal {min} karakter",
+  "@validationPasswordMin": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "validationPasswordMatch": "Konfirmasi kata sandi tidak sama",
+  "rateLimitedWait": "Terlalu banyak percobaan. Coba lagi dalam {seconds} detik.",
+  "@rateLimitedWait": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "homeTitle": "Situs Saya",
+  "homeWelcome": "Halo, {name}!",
+  "@homeWelcome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homePlaceholder": "Daftar situs akan hadir di Fase 2.",
+  "sitesEmpty": "Belum ada situs",
+  "sitesEmptyHint": "Belum ada situs yang terhubung dengan akun ini. Tarik ke bawah untuk memuat ulang.",
+  "statusPublished": "Tayang",
+  "statusDraft": "Draft",
+  "planLabel": "Paket {plan}",
+  "@planLabel": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "unreadMessages": "{count} pesan belum dibaca",
+  "@unreadMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activeSite": "Situs aktif",
+  "siteSelected": "Situs aktif: {name}",
+  "@siteSelected": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "offlineBanner": "Menampilkan data tersimpan. Tarik ke bawah untuk memuat ulang saat online.",
+  "sectionsTitle": "Section",
+  "sectionsEmpty": "Belum ada section",
+  "usageLabel": "{used} dari {limit} section terpakai",
+  "@usageLabel": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "usageUnlimited": "{used} section",
+  "@usageUnlimited": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      }
+    }
+  },
+  "addSection": "Tambah section",
+  "noAddable": "Tidak ada section lain yang bisa ditambahkan.",
+  "limitReached": "Batas jumlah section pada paket Anda sudah tercapai.",
+  "sectionAdded": "Section ditambahkan",
+  "sampleBadge": "Contoh",
+  "lockedTitle": "Section terkunci",
+  "lockedMessage": "Section ini hanya tersedia di paket yang lebih tinggi. Upgrade paket untuk membukanya.",
+  "ok": "OK",
+  "moveUp": "Naikkan",
+  "moveDown": "Turunkan",
+  "moveUpShort": "Naik",
+  "moveDownShort": "Turun",
+  "orderLabel": "Urutan",
+  "reorderHint": "Urutan kartu di sini sama dengan urutan tampil di website. Pakai tombol Naik / Turun di tiap kartu untuk mengaturnya.",
+  "reorderPosition": "Urutan {n} dari {total}",
+  "@reorderPosition": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "reorderMoveTo": "Pindah ke…",
+  "reorderSheetTitle": "Pindahkan ke urutan berapa?",
+  "reorderSheetHint": "Pilih posisi baru. Kartu lain akan bergeser otomatis.",
+  "reorderCurrent": "Sekarang",
+  "reorderMoved": "Dipindah ke urutan {n}",
+  "@reorderMoved": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "accountStatSites": "Situs",
+  "accountStatUnread": "Pesan baru",
+  "accountActiveSite": "Situs aktif",
+  "accountOpenSite": "Buka",
+  "accountCopyLink": "Salin",
+  "accountShare": "Bagikan",
+  "accountSwitchSite": "Ganti situs",
+  "accountManageTitle": "Kelola situs",
+  "accountMoreTitle": "Lainnya",
+  "accountAbout": "Tentang aplikasi",
+  "accountAboutText": "Compro Builder membantu Anda membuat website company profile sendiri tanpa perlu coding.",
+  "accountEmailCopied": "Email disalin",
+  "accountPlanName": "Paket {name}",
+  "@accountPlanName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "accountUnreadCount": "{n} pesan belum dibaca",
+  "@accountUnreadCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "accountNoUnread": "Tidak ada pesan baru",
+  "accountMenuBillingDesc": "Perpanjang paket dan lihat riwayat bayar",
+  "accountMenuSettingsDesc": "Nama, kontak, dan info situs",
+  "accountMenuThemeDesc": "Ganti warna tampilan situs",
+  "visibilityToggle": "Tampilkan section",
+  "deleteConfirmTitle": "Hapus section?",
+  "deleteConfirmMessage": "Section “{name}” akan dihapus permanen.",
+  "@deleteConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "actionDelete": "Hapus",
+  "actionCancel": "Batal",
+  "actionSave": "Simpan",
+  "saved": "Perubahan tersimpan",
+  "uploading": "Mengunggah… {percent}%",
+  "@uploading": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "pickCamera": "Kamera",
+  "pickGallery": "Galeri",
+  "chooseImage": "Pilih gambar",
+  "removeImage": "Hapus gambar",
+  "imageTooLarge": "Ukuran gambar masih melebihi {kb} KB.",
+  "@imageTooLarge": {
+    "placeholders": {
+      "kb": {
+        "type": "int"
+      }
+    }
+  },
+  "addRow": "Tambah baris",
+  "removeRow": "Hapus baris",
+  "rowLabel": "{label} {n}",
+  "@rowLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "validationMaxLength": "Maksimal {max} karakter",
+  "@validationMaxLength": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "validationMaxItems": "Maksimal {max} baris",
+  "@validationMaxItems": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "unsupportedField": "Isian “{label}” belum didukung di aplikasi ini.",
+  "@unsupportedField": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "fieldsEmpty": "Section ini tidak punya isian.",
+  "validationColor": "Pakai format #RRGGBB, contoh #1D2B5F",
+  "selectChoose": "Pilih salah satu",
+  "markdownPreview": "Pratinjau",
+  "markdownPreviewEmpty": "Belum ada isi untuk dipratinjau.",
+  "settingsDisplay": "Tampilan situs",
+  "settingsMultipage": "Mode multi-halaman",
+  "settingsMultipageHint": "Tiap section tampil di halamannya sendiri, bukan satu halaman panjang.",
+  "settingsMultipageLocked": "Belum tersedia di paketmu. Tingkatkan paket untuk memakainya.",
+  "settingsTitle": "Pengaturan situs",
+  "settingsGeneral": "Umum",
+  "settingsSiteName": "Nama situs",
+  "settingsLogo": "Logo",
+  "settingsFavicon": "Favicon",
+  "settingsSeo": "SEO",
+  "settingsSeoTitle": "Judul SEO",
+  "settingsSeoDescription": "Deskripsi SEO",
+  "settingsSocial": "Tautan sosial",
+  "settingsSocialHint": "Isi tautan lengkap, mis. https://instagram.com/akun",
+  "settingsNotify": "Notifikasi",
+  "settingsNotifyEmail": "Email notifikasi pesan",
+  "settingsTheme": "Warna tema",
+  "themeBrand": "Brand",
+  "themeBright": "Cerah",
+  "themeSoft": "Lembut",
+  "settingsNoChanges": "Belum ada perubahan",
+  "publishTitle": "Publikasi",
+  "publishStatusPublished": "Situs Anda sedang tayang dan bisa dilihat pengunjung.",
+  "publishStatusDraft": "Situs Anda masih draft dan belum bisa dilihat pengunjung.",
+  "publishStatusUnknown": "Status situs belum diketahui.",
+  "publishActionPublish": "Tayangkan situs",
+  "publishActionDraft": "Jadikan draft",
+  "checklistTitle": "Kelengkapan situs",
+  "checklistAllGood": "Semua section yang tampil sudah terisi.",
+  "checklistNoSections": "Belum ada section yang ditampilkan.",
+  "checklistSample": "Masih berisi contoh",
+  "checklistMissing": "Wajib diisi: {fields}",
+  "@checklistMissing": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
+  "publishConfirmIssuesTitle": "Tayangkan sekarang?",
+  "publishConfirmIssues": "Masih ada {count} hal yang belum lengkap. Tetap tayangkan?",
+  "@publishConfirmIssues": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "publishAnyway": "Tetap tayangkan",
+  "publishConfirmDraftTitle": "Jadikan draft?",
+  "publishConfirmDraft": "Pengunjung tidak bisa melihat situs sampai Anda menayangkannya lagi.",
+  "publishedOk": "Situs sudah tayang",
+  "draftOk": "Situs dijadikan draft",
+  "blockEmailTitle": "Verifikasi email dulu",
+  "blockEmailMessage": "Situs baru bisa tayang setelah email Anda terverifikasi. Buka email, klik tautan verifikasi, lalu coba lagi.",
+  "blockDisabledTitle": "Situs dinonaktifkan",
+  "blockDisabledMessage": "Situs ini dinonaktifkan oleh admin. Hubungi admin untuk mengaktifkannya kembali.",
+  "blockOtherTitle": "Tidak diizinkan",
+  "openEmail": "Buka email",
+  "contactAdmin": "Hubungi admin",
+  "cannotOpenLink": "Tidak dapat membuka tautan.",
+  "messagesTitle": "Pesan masuk",
+  "messagesEmpty": "Belum ada pesan masuk.",
+  "messagesUpgradeTitle": "Pesan masuk belum tersedia",
+  "messagesUpgradeMessage": "Fitur pesan masuk tersedia untuk paket Medium ke atas. Tingkatkan paket untuk membaca pesan dari pengunjung situs Anda.",
+  "messageUnread": "Belum dibaca",
+  "markRead": "Tandai dibaca",
+  "markUnread": "Tandai belum dibaca",
+  "messageDeleteTitle": "Hapus pesan?",
+  "messageDeleteConfirm": "Pesan dari {name} akan dihapus permanen.",
+  "@messageDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "messageDeleted": "Pesan dihapus",
+  "replyWhatsapp": "Balas via WhatsApp",
+  "replyEmail": "Balas via email",
+  "replyCall": "Telepon",
+  "loadMoreFailed": "Gagal memuat pesan berikutnya.",
+  "messagePhone": "Telepon",
+  "messageNotFound": "Pesan tidak ditemukan.",
+  "waGreeting": "Halo {name}, terima kasih telah menghubungi kami.",
+  "@waGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "replySubject": "Balasan atas pesan Anda",
+  "planTitle": "Paket",
+  "planCurrent": "Paket aktif",
+  "planPrice": "Harga",
+  "planValidity": "Masa berlaku",
+  "planNoExpiry": "Tanpa batas waktu",
+  "planExpiresOn": "Berlaku sampai {date}",
+  "@planExpiresOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "planDaysLeft": "{days} hari lagi",
+  "@planDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "planExpiresToday": "berakhir hari ini",
+  "planExpired": "Sudah berakhir",
+  "planLimits": "Batas paket",
+  "planLimitsEmpty": "Tidak ada informasi batas untuk paket ini.",
+  "limitUnlimited": "Tanpa batas",
+  "valueYes": "Ya",
+  "valueNo": "Tidak",
+  "planUpgrade": "Upgrade atau perpanjang",
+  "planUpgradeHint": "Pilih paket dan bayar langsung di aplikasi. Paket dan masa berlaku diperbarui otomatis setelah pembayaran diterima.",
+  "planViewPlans": "Lihat paket",
+  "planRefreshed": "Data paket diperbarui",
+  "previewTitle": "Pratinjau",
+  "previewReload": "Muat ulang",
+  "previewShare": "Bagikan tautan situs",
+  "previewCopy": "Salin tautan",
+  "previewOpenBrowser": "Buka di browser",
+  "previewCopied": "Tautan disalin",
+  "previewLoadFailed": "Pratinjau tidak dapat dimuat. Periksa koneksi internet Anda.",
+  "previewDraftBanner": "Situs masih draft, jadi pengunjung belum bisa membuka tautannya.",
+  "previewGoPublish": "Publikasi",
+  "shareMessage": "Kunjungi {name}: {url}",
+  "@shareMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "moreActions": "Menu lainnya",
+  "dashboardTitle": "Beranda",
+  "dashboardLoading": "Memuat situs...",
+  "dashboardNoSiteTitle": "Belum ada situs aktif",
+  "dashboardNoSiteMessage": "Buka tab Situs dan pilih situs yang ingin dikelola.",
+  "dashboardSwitchSite": "Ganti situs",
+  "dashboardPlanExpiredTitle": "Paket sudah berakhir",
+  "dashboardPlanExpiredMessage": "Paket Anda sudah berakhir. Perpanjang supaya fitur paket aktif kembali.",
+  "dashboardPlanExpiringTitle": "Paket segera berakhir",
+  "dashboardPlanExpiresToday": "Paket Anda berakhir hari ini. Perpanjang supaya fitur paket tetap aktif.",
+  "dashboardPlanExpiresIn": "Paket Anda berakhir {days} hari lagi. Perpanjang supaya fitur paket tetap aktif.",
+  "@dashboardPlanExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardRenew": "Perpanjang",
+  "dashboardCheckAndPublish": "Cek & tayangkan",
+  "dashboardNeedsWork": "Perlu dilengkapi",
+  "dashboardMoreItems": "+{count} lainnya",
+  "@dashboardMoreItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardOpenSite": "Buka situs",
+  "dashboardStatMessages": "Pesan",
+  "dashboardStatPlanDays": "Paket · hari",
+  "dashboardStatStatus": "Status",
+  "dashboardManageTitle": "Kelola situs",
+  "completenessPercent": "{percent}% lengkap",
+  "@completenessPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "completenessCounts": "{full} lengkap · {partial} sebagian · {empty} kosong",
+  "@completenessCounts": {
+    "placeholders": {
+      "full": {
+        "type": "int"
+      },
+      "partial": {
+        "type": "int"
+      },
+      "empty": {
+        "type": "int"
+      }
+    }
+  },
+  "publishConfirmTitle": "Tayangkan situs?",
+  "publishConfirm": "Pengunjung akan bisa melihat situs Anda.",
+  "checklistSectionUnavailable": "Section belum termuat. Coba lagi sebentar lagi.",
+  "actionBack": "Kembali",
+  "actionNext": "Lanjut",
+  "themeTitle": "Warna situs",
+  "themeIntro": "Pilih warna yang dipakai di seluruh situs Anda. Pilihan sama dengan dashboard web.",
+  "themeSaved": "Warna situs diperbarui",
+  "themeEmpty": "Belum ada pilihan warna.",
+  "onboardingTitle": "Atur situs Anda",
+  "onboardingSkip": "Lewati",
+  "onboardingSkipTitle": "Lewati pengaturan awal?",
+  "onboardingSkipMessage": "Anda tetap bisa mengisi nama, kontak, dan warna nanti lewat Pengaturan, tab Section, dan Warna situs di Beranda.",
+  "onboardingSkipped": "Pengaturan awal dilewati",
+  "onboardingDone": "Pengaturan awal tersimpan",
+  "onboardingStepOf": "Langkah {current} dari {total}",
+  "@onboardingStepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingBusinessTitle": "Tentang usaha Anda",
+  "onboardingBusinessHint": "Nama dan kalimat singkat ini tampil di bagian paling atas situs.",
+  "onboardingName": "Nama usaha",
+  "onboardingSubtitle": "Kalimat singkat (opsional)",
+  "onboardingSubtitleHelp": "Tampil di bawah nama usaha. Kosongkan untuk memakai teks contoh.",
+  "onboardingContactTitle": "Kontak",
+  "onboardingContactHint": "Pengunjung bisa langsung menghubungi Anda lewat WhatsApp.",
+  "onboardingWhatsapp": "Nomor WhatsApp (opsional)",
+  "onboardingWhatsappHelp": "Contoh: 0812 3456 7890. Awalan 0 diubah ke 62 otomatis.",
+  "onboardingWhatsappInvalid": "Nomor tidak valid. Contoh: 0812 3456 7890.",
+  "onboardingThemeTitle": "Pilih warna",
+  "onboardingThemeHint": "Warna ini dipakai di seluruh situs dan bisa diganti kapan saja.",
+  "onboardingFinish": "Selesai",
+  "onboardingCardTitle": "Lengkapi pengaturan awal",
+  "onboardingCardMessage": "Isi nama, kontak WhatsApp, dan warna situs dalam 3 langkah singkat.",
+  "onboardingStart": "Mulai",
+  "templateTitle": "Template tampilan",
+  "templateIntro": "Pilih tampilan situs Anda. Isi situs tidak berubah saat template diganti.",
+  "templateEmpty": "Belum ada template.",
+  "templateActive": "Dipakai",
+  "templateTierClassic": "Classic",
+  "templateTierMedium": "Medium",
+  "templateTierPro": "Pro",
+  "templateLockedPlan": "Tersedia di paket {plan}",
+  "@templateLockedPlan": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "templatePreview": "Pratinjau",
+  "templateUse": "Pakai",
+  "templateConfirmTitle": "Ganti template?",
+  "templateConfirmMessage": "Tampilan situs akan berganti ke {name}. Isi situs Anda tidak berubah.",
+  "@templateConfirmMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "templateApplied": "Tampilan diganti ke {name}",
+  "@templateApplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "templateChosenInactive": "Template pilihan Anda ({chosen}) belum aktif karena paket belum mencukupi. Situs memakai {active} sampai paket di-upgrade.",
+  "@templateChosenInactive": {
+    "placeholders": {
+      "chosen": {
+        "type": "String"
+      },
+      "active": {
+        "type": "String"
+      }
+    }
+  },
+  "templatePreviewFailed": "Pratinjau tidak dapat dimuat atau tautannya sudah kedaluwarsa. Tutup lalu buka pratinjau lagi.",
+  "addressTitle": "Alamat website",
+  "addressIntro": "Alamat ini dipakai pengunjung untuk membuka situs Anda. Setelah diganti, link lama berhenti berfungsi.",
+  "addressCurrent": "Alamat sekarang",
+  "addressInputLabel": "Alamat baru",
+  "addressInputHint": "contoh: kopikita",
+  "addressChecking": "Memeriksa…",
+  "addressEmptyHelp": "Tulis alamat yang Anda inginkan.",
+  "addressUseSuggestion": "Pakai {slug}",
+  "@addressUseSuggestion": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "addressSubmit": "Ganti alamat",
+  "addressConfirmTitle": "Ganti alamat website?",
+  "addressConfirmMessage": "Link lama ({oldUrl}) akan berhenti berfungsi. Link baru: {newUrl}. Bagikan ulang ke pelanggan Anda.",
+  "@addressConfirmMessage": {
+    "placeholders": {
+      "oldUrl": {
+        "type": "String"
+      },
+      "newUrl": {
+        "type": "String"
+      }
+    }
+  },
+  "addressSaved": "Alamat diganti ke {slug}",
+  "@addressSaved": {
+    "placeholders": {
+      "slug": {
+        "type": "String"
+      }
+    }
+  },
+  "domainTitle": "Domain sendiri",
+  "domainCurrentUrl": "Alamat situs saat ini",
+  "domainLocked": "Domain sendiri belum tersedia di paket Anda. Upgrade paket untuk memakainya.",
+  "domainNotReady": "Server belum siap menerima domain sendiri. Coba lagi nanti.",
+  "domainNone": "Belum ada domain sendiri",
+  "domainNoneHint": "Daftarkan domain Anda lewat dashboard web.",
+  "domainStatusActive": "Aktif",
+  "domainStatusPending": "Menunggu verifikasi",
+  "domainStatusVerifiedInactive": "Terverifikasi, tetapi paket tidak mengizinkan",
+  "domainDnsTitle": "Pengaturan DNS",
+  "domainDnsHint": "Tambahkan record berikut di pengelola DNS domain Anda, lalu cek verifikasi lewat dashboard web.",
+  "domainDnsTxtName": "TXT: nama",
+  "domainDnsTxtValue": "TXT: isi",
+  "domainDnsA": "A: alamat server",
+  "domainDnsCname": "CNAME: tujuan",
+  "domainCopied": "Disalin",
+  "domainManageWeb": "Kelola di web",
+  "domainWebHint": "Menyetel, memverifikasi, dan melepas domain dilakukan di dashboard web. Setelah selesai, kembali ke aplikasi dan status diperbarui otomatis.",
+  "domainCopy": "Salin",
+  "billingTitle": "Paket dan pembayaran",
+  "billingHistoryTitle": "Riwayat pembayaran",
+  "billingHistoryEmpty": "Belum ada pembayaran.",
+  "billingLoadMore": "Muat lebih banyak",
+  "billingEmailUnverifiedTitle": "Verifikasi email dulu",
+  "billingEmailUnverifiedMessage": "Membeli paket butuh email yang sudah terverifikasi. Buka tautan verifikasi di email Anda, lalu tarik layar ini ke bawah untuk memuat ulang.",
+  "billingPendingTitle": "Pembayaran menunggu",
+  "billingPendingMessage": "{plan} · {amount}. Lanjutkan pembayaran atau pilih paket lain.",
+  "@billingPendingMessage": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "billingContinuePay": "Lanjutkan pembayaran",
+  "billingPeriod": "Lama langganan",
+  "billingPlansTitle": "Pilih paket",
+  "billingNoPlans": "Belum ada paket yang tersedia.",
+  "billingCreating": "Membuat tagihan…",
+  "billingOpenWeb": "Buka halaman tagihan di web",
+  "billingFree": "Gratis",
+  "billingCurrentBadge": "Paket aktif",
+  "billingForPeriod": "untuk {period}",
+  "@billingForPeriod": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      }
+    }
+  },
+  "billingRenew": "Perpanjang",
+  "billingBuy": "Pilih paket",
+  "billingPayTitle": "Pembayaran",
+  "billingPlanMonths": "{plan} · {months} bulan",
+  "@billingPlanMonths": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      },
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "billingOrderNumber": "No. tagihan {number}",
+  "@billingOrderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "billingChooseMethod": "Pilih metode pembayaran",
+  "billingTimedOut": "Batas waktu tagihan sebelumnya sudah habis. Pilih metode pembayaran lagi.",
+  "billingChangeMethod": "Ganti metode",
+  "billingPayWeb": "Bayar lewat web",
+  "billingWebHint": "Tagihan ini dibayar di situs web. Setelah selesai, kembali ke aplikasi dan status diperbarui otomatis.",
+  "billingWebUnavailable": "Tautan pembayaran tidak tersedia. Buka halaman tagihan di web dari daftar paket.",
+  "billingInstructionsTitle": "Selesaikan pembayaran",
+  "billingDetailsMissing": "Rincian pembayaran tidak tersedia. Pilih metode lain.",
+  "billingVaBank": "Bank",
+  "billingVaNumber": "Nomor virtual account",
+  "billingBillerCode": "Kode perusahaan (biller)",
+  "billingBillKey": "Kode pembayaran",
+  "billingQrHint": "Pindai kode QR ini dengan aplikasi bank atau dompet digital yang mendukung QRIS.",
+  "billingQrSemantics": "Kode QR pembayaran",
+  "billingQrMissing": "Kode QR tidak tersedia. Pilih metode lain.",
+  "billingPayBefore": "Bayar sebelum {date}",
+  "@billingPayBefore": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "billingTimeLeft": "Sisa waktu {time}",
+  "@billingTimeLeft": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "billingWaiting": "Menunggu pembayaran. Status diperiksa otomatis.",
+  "billingCheckStatus": "Cek status pembayaran",
+  "billingCopy": "Salin",
+  "billingCopied": "Disalin",
+  "billingPaidTitle": "Pembayaran berhasil",
+  "billingPaidMessage": "Paket {plan} sudah aktif.",
+  "@billingPaidMessage": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "billingPaidDone": "Selesai",
+  "billingPaidSnack": "Pembayaran diterima. Paket diperbarui.",
+  "billingClosedTitle": "Tagihan sudah tidak aktif",
+  "billingClosedMessage": "Buat tagihan baru dari halaman paket.",
+  "billingBackToPlans": "Kembali ke daftar paket",
+  "billingStatusPaid": "Lunas",
+  "billingStatusPending": "Menunggu pembayaran",
+  "billingStatusFailed": "Gagal",
+  "billingStatusExpired": "Kedaluwarsa",
+  "accountEmailLabel": "Email",
+  "accountShowPassword": "Tampilkan password",
+  "accountHidePassword": "Sembunyikan password",
+  "accountResendWait": "Kirim ulang dalam {seconds} dtk",
+  "@accountResendWait": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "accountResendVerification": "Kirim ulang tautan verifikasi",
+  "accountResendSending": "Mengirim…",
+  "forgotTitle": "Lupa password",
+  "forgotIntro": "Masukkan email akun Anda. Kami akan mengirim tautan untuk mengatur ulang password.",
+  "forgotSubmit": "Kirim tautan",
+  "forgotResend": "Kirim ulang tautan",
+  "forgotSentTitle": "Cek email Anda",
+  "forgotHaveLink": "Saya sudah punya tautan atau kode",
+  "forgotBack": "Kembali ke halaman masuk",
+  "resetTitle": "Atur ulang password",
+  "resetIntro": "Salin tautan dari email atur ulang (atau kodenya), tempel di sini, lalu buat password baru. Tautan hanya berlaku sementara.",
+  "resetTokenLabel": "Tautan atau kode dari email",
+  "resetPaste": "Tempel dari papan klip",
+  "resetPasswordLabel": "Password baru",
+  "resetConfirmLabel": "Ulangi password baru",
+  "resetSubmit": "Atur ulang password",
+  "authEmailRequired": "Email wajib diisi.",
+  "authEmailInvalid": "Format email belum benar.",
+  "authPasswordLabel": "Password",
+  "authPasswordRequired": "Password wajib diisi.",
+  "authForgotLink": "Lupa password?",
+  "authRetryIn": "Coba lagi dalam {seconds} dtk",
+  "@authRetryIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "registerHeading": "Buat akun pemilik situs",
+  "registerNameLabel": "Nama",
+  "registerNameRequired": "Nama wajib diisi.",
+  "registerNameMax": "Nama maksimal 100 karakter.",
+  "registerCompanyRequired": "Nama usaha wajib diisi.",
+  "registerCompanyMax": "Nama usaha maksimal 100 karakter.",
+  "registerSlugLabel": "Alamat situs (opsional)",
+  "registerSlugHelper": "Kosongkan untuk dibuat otomatis dari nama usaha.",
+  "registerSlugLength": "Alamat 3 sampai 40 karakter.",
+  "registerSlugChars": "Hanya huruf kecil, angka, dan tanda hubung.",
+  "registerPasswordHelper": "Minimal 8 karakter.",
+  "registerPasswordMin": "Password minimal 8 karakter.",
+  "registerConfirmLabel": "Ulangi password",
+  "registerConfirmMismatch": "Konfirmasi password tidak sama.",
+  "registerCreated": "Akun dibuat. Cek email Anda untuk verifikasi sebelum menayangkan situs.",
+  "shellLoggingOut": "Keluar...",
+  "shellTabSites": "Situs",
+  "shellTabAccount": "Akun",
+  "accountLogoutTitle": "Keluar?",
+  "accountLogoutMessage": "Anda perlu masuk lagi untuk mengelola situs.",
+  "accountEmailUnverifiedTitle": "Email belum diverifikasi",
+  "accountEmailUnverifiedMessage": "Verifikasi email dibutuhkan untuk menayangkan situs.",
+  "accountEmailVerified": "Email terverifikasi",
+  "statusDisabled": "Nonaktif",
+  "sessionExpired": "Sesi berakhir. Silakan masuk kembali."
+}
